@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js", 
+    "start": "node src/index.js",
     "dev": "env-cmd ./config/dev.env nodemon src/index.js"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "mongoose": "^5.10.2",
